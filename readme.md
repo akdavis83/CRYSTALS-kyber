@@ -9,7 +9,6 @@ Shared Secret Generation:
 Use Encrypt512 to encapsulate a shared secret with the public key.
 Use Decrypt512 to decapsulate the shared secret with the private key.
 
-
 Shared Secret to Entropy:
 
 Hash the shared secret using SHA-256 to derive entropy.
@@ -25,13 +24,16 @@ CRYSTALS-Kyber Integration:
 The KeyGen512 function generates the key pair.
 The Encrypt512 function generates the shared secret and ciphertext.
 The Decrypt512 function recovers the shared secret using the private key.
+
 Shared Secret to Entropy:
 
 The shared secret is hashed with SHA-256 to derive 32 bytes of entropy.
+
 BTC Key Pair:
 
 The entropy is used as a private key for the secp256k1 curve.
 A compressed public key and Bitcoin address are derived.
+
 ETH Key Pair:
 
 The entropy is used as a private key for the secp256k1 curve.
