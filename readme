@@ -1,18 +1,19 @@
 # Quantum Key Exchange (Kyber512-JS)-works with 768, and 1024 also.
 
-1.Key Generation:
+Key Generation:
 
 Use KeyGen512 to generate a public/private key pair.
+
 Shared Secret Generation:
 
 Use Encrypt512 to encapsulate a shared secret with the public key.
 Use Decrypt512 to decapsulate the shared secret with the private key.
 
-2.Shared Secret to Entropy:
+Shared Secret to Entropy:
 
 Hash the shared secret using SHA-256 to derive entropy.
 
-3.BTC and ETH Key Derivation:
+BTC and ETH Key Derivation:
 
 Use the entropy as a private key for BTC and ETH key generation.
 
