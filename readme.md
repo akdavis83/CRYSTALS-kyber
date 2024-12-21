@@ -40,19 +40,33 @@ The Ethereum address is derived by hashing the public key with Keccak-256.
 When you run the script, you should see:
 
 Generating Kyber512 key pair...
+
 Public Key: [Array of bytes]
+
 Private Key: [Array of bytes]
+
 Encrypting shared secret...
+
 Ciphertext: [Array of bytes]
+
 Shared Secret (Sender): [Array of bytes]
+
 Decrypting shared secret...
+
 Shared Secret (Receiver): [Array of bytes]
+
 Generating BTC key pair...
+
 BTC Private Key: [Hex string]
+
 BTC Public Key: [Hex string]
+
 BTC Address: [Base58Check string]
+
 Generating ETH key pair...
+
 ETH Private Key: [Hex string]
+
 ETH Address: 0x[Hex string]
 
 # Next Steps
