@@ -9,6 +9,7 @@ Shared Secret Generation:
 Use Encrypt512 to encapsulate a shared secret with the public key.
 Use Decrypt512 to decapsulate the shared secret with the private key.
 
+
 Shared Secret to Entropy:
 
 Hash the shared secret using SHA-256 to derive entropy.
