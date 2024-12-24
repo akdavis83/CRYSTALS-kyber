@@ -76,17 +76,17 @@ ETH Address: 0x[Hex string]
 
 The Kyber algorithm enhances the security of key pairs in several ways:
 
---Post-quantum resistance: Kyber is designed to be secure against both classical and quantum attacks, making it more resilient to future threats posed by quantum computers13.
+--Post-quantum resistance: Kyber is designed to be secure against both classical and quantum attacks, making it more resilient to future threats posed by quantum computers.
 
---Lattice-based security: Kyber's security is based on the hardness of the Learning with Errors (LWE) problem, specifically the module learning with errors (M-LWE) variant, which is considered one of the most promising candidates for post-quantum cryptography13.
+--Lattice-based security: Kyber's security is based on the hardness of the Learning with Errors (LWE) problem, specifically the module learning with errors (M-LWE) variant, which is considered one of the most promising candidates for post-quantum cryptography.
 
---Larger key sizes: Kyber typically requires larger key sizes compared to traditional cryptography, which contributes to its increased security against quantum attacks1.
+--Larger key sizes: Kyber typically requires larger key sizes compared to traditional cryptography, which contributes to its increased security against quantum attacks.
 
---Standardization and scrutiny: As a finalist in the NIST Post-Quantum Cryptography Standardization project, Kyber has undergone rigorous evaluation by experts, ensuring its security and resistance to quantum attacks1.
+--Standardization and scrutiny: As a finalist in the NIST Post-Quantum Cryptography Standardization project, Kyber has undergone rigorous evaluation by experts, ensuring its security and resistance to quantum attacks.
 
---Hybrid approach: Kyber can be combined with traditional cryptography methods like Elliptic Curve Cryptography (ECC) to create a quantum-safe hybrid key exchange scheme, providing two layers of protection2.
+--Hybrid approach: Kyber can be combined with traditional cryptography methods like Elliptic Curve Cryptography (ECC) to create a quantum-safe hybrid key exchange scheme, providing two layers of protection.
 
---Flexible security levels: Kyber offers different security levels (e.g., Kyber512, Kyber768, Kyber1024) that correspond to various strengths of protection, allowing users to choose the appropriate level based on their security requirements13.
+--Flexible security levels: Kyber offers different security levels (e.g., Kyber512, Kyber768, Kyber1024) that correspond to various strengths of protection, allowing users to choose the appropriate level based on their security requirements.
 
 By incorporating these features, Kyber provides a higher level of security compared to traditional key pair generation methods, especially in the context of future quantum computing threats.
 
